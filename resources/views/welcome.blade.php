@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Lingga Master
                 </div>
 
                 <div class="links">
