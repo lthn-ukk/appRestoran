@@ -66,11 +66,11 @@
                             <div class="col-md-6">
                                 <select class="form-control" name="id_level" id="id_level">
                                     <option value="">Select Role User</option>
+                                    <option value="1">Admin</option>
+                                    <option value="2">Waiter</option>
+                                    <option value="3">Owner</option>
+                                    <option value="4">Kasir</option>
                                     <option value="5">Pelanggan</option>
-                                    <option value="1">Waiter</option>
-                                    <option value="3">Kasir</option>
-                                    <option value="2">Owner</option>
-                                    <option value="4">Admin</option>
                                 </select>
 
                                 @if ($errors->has('id_level'))
