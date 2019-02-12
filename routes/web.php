@@ -17,4 +17,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('masakan','masakanController');
+Route::get('admin/home', 'HomeController@index')->name('home');
+Route::get('order','orderController@index')->name('order');
+Route::post('selectMenu/{id}','orderController@selectMenu');
+// Route::get('admin/add_masakan', 'masakanController@create')->name('insertMasakan');
