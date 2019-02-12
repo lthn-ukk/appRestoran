@@ -8,7 +8,10 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    You are logged inaaa!
+                    <a href="{{ route('masakan.create') }}">Tambah Masakan</a> |
+                    <a href="{{ route('masakan.index') }}">Daftar Masakan</a> |
+                    <a href="{{ route('order') }}">Order</a>
                 </div>
             </div>
         </div>
